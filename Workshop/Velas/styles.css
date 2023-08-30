@@ -1,0 +1,82 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #d694c2;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para la introducción */
+.introduction {
+    background-color: #84b9c9;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Estilos para el catálogo */
+.catalog {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cambia según el diseño deseado */
+    gap: 20px;
+    background-color: #e49898;
+}
+
+.product1 {
+    border: 1px solid #df8e8e;
+    padding: 20px;
+    text-align: center;
+}
+.product2 {
+    border: 1px solid #df8e8e;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el formulario de contacto */
+.contact {
+    background-color: #b6e999;
+    padding: 40px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    background-color: #b6e999;
+    padding: 40px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tienda de Velas Aromáticas</title>
+</head>
+<body>
+    <header>
+        <h1>Velas Alegro</h1>
+        <p>Para alegrar tu dia o ayudar a relajar tu noche. ¡Te garantizamos una buena experiencia!</p>
+        <img src="img/VelaPortada1.jpg" alt="Vela Aromática">
+    </header>
+
+    <section class="introduction">
+        <h2>Beneficios</h2>
+        <p>Explora los beneficios y usos de nuestras velas aromáticas para crear un ambiente relajante y acogedor.</p>
+        <img src="img/Habitacion.jfif" width="500px" height="400px" alt="Ambiente con Velas">
+    </section>
+
+    <section class="catalog">
+        <h2>Catálogo</h2>
+        <div class="product1">
+            <a href="Vela1.html"><img src="img/Classical.webp" width="300px" height="300px"> </a>
+            <h3>Classical</h3>
+            <p>Vela de estilo clasico, se suelen usar para decorar ambientes de forma llamativa.</p>
+            <p>Precio: $30.000</p>
+        </div>
+        <div class="product2">
+            <a href="Vela2.html"> <img src="img/vela-aromatica2.jpg" width="300px" height="300px" alt="Vela 1"></a>
+            <h3>Zensial</h3>
+            <p>Vela en vaso, se puede usar en cualquier habitación para dar elegancia y mejorar el ambiente.</p>
+            <p>Precio: $35.000</p>
+        </div>
+        
+    </section>
+
+
+    <section class="contact">
+        <h2>Contacto</h2>
+        <form action="enviar-formulario.php" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>Alegro 2023©</p>
+    </footer>
+
+</body>
+</html>
